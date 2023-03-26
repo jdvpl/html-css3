@@ -1,7 +1,94 @@
-h1 {
-    color: #000;
+html {
+    box-sizing: border--box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
-span{
-    color: #037bc0;
+
+.nombre-sitio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align:  center;
 }
+.nombre-sitio span {
+    color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 25px ;
+}
+
+
+.sobre-nosotros {
+    background-color: red;
+    width:50;
+    padding: 20px;
+} 
+
+h1 { 
+    text-align:     center;
+}
+h1 span {
+    color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 25px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.xd {
+    width: 100%;
+    height: 550px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-image: url(../img/producto1.jpg);
+
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.contenedor-navegacion {
+    border-color: #000;
+    border-top-style: solid;
+    padding: 25 0px 30px 20px;
+    border-width: 1px;
+}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listado-categorias {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 300px;
+        gap: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+.categorias h2 {
+    text-align: center;
+}
+.categoria  a  {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 25px ;
+}
+
+
